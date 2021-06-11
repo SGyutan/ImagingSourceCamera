@@ -1,4 +1,4 @@
-# ARGOの産業用UVCカメラ（ImagingSourceCamera）のインストールと動作テスト
+# ARGOの産業用UVCカメラ（Imaging Source Camera）のインストールと動作テスト
 
 #### はじめに
 

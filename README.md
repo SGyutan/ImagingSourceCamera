@@ -23,11 +23,14 @@ openCV=4.2
 
 上記のHPを参考に
 
-（1）下記の**「4-2）IC Imaging Control .NET Component for C#, VB.NET projects ソフトウェア
-開発キット（SDK）」**をインストール
+（1）下記の
+「4-2）IC Imaging Control .NET Component for C#, VB.NET projects ソフトウェア
+開発キット（SDK）」をインストール
+
 https://www.argocorp.com/software/DL/tis/index.html#tab4    
 
-（2）下記のGithubで赤枠の**「Download ZIP」**をクリックし、ダウンロードします
+（2）下記のGithubで赤枠の**「Download ZIP」をクリックし、ダウンロードします
+
 https://github.com/TheImagingSource/IC-Imaging-Control-Samples      
 
 このホルダーにはいろいろな開発言語がありますが、使うのはPythonだけです。
@@ -132,6 +135,7 @@ Camera.open(Devices[0])
 
 そこで、このデバイスリストからカメラを指定すると（例えばDevices[0]）TIS_CAMのメソッドのsが呼ばれます。先ほどの修正をしていないとエラーが起こります。
 
+### tis-OpenCV_DMK33.py
 
 デモプログラムのひな型のtis-OpenCV.pyのコピーを作成します。
 
